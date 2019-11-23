@@ -25,3 +25,9 @@ if (prog == 3) {
 
     }
 }
+if (prog = 4) {
+    function task4() {
+        return '1000+"108"=' + 1000 + '108'
+    }
+    alert (task4())
+}
