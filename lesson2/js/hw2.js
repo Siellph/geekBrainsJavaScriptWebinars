@@ -119,4 +119,5 @@ function unit7() {
     return null == 0 // В данном случае 0 - это число с типом данных number, а null, возможно, строка, и поэтому результат выполнения 'false'. Больше вариантов нет.
 }
 // Задание 8
-function unit8(){}
+function power(val, pow){
+}
