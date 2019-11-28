@@ -29,53 +29,37 @@ function unit4() {
     var a = +prompt('Введите переменную a от 0 до 15:')
     switch (a) {
         case 0:
-            return ('1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+           console.log (a++)
         case 1:
-            return ('2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 2:
-            return ('3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 3:
-            return ('4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 4:
-            return ('5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 5:
-            return ('6, 7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 6:
-            return ('7, 8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 7:
-            return ('8, 9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 8:
-            return ('9, 10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 9:
-            return ('10, 11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 10:
-            return ('11, 12, 13, 14, 15');
-            break
+            console.log (a++)
         case 11:
-            return ('12, 13, 14, 15');
-            break
+            console.log (a++)
         case 12:
-            return ('13, 14, 15');
-            break
+            console.log (a++)
         case 13:
-            return ('14, 15');
-            break
+            console.log (a++)
         case 14:
-            return ('15');
-            break
+            console.log (a++)
         case 15:
-            return ('Это последнее число в диапазоне')
-            break
+            console.log (a++)
     }
 }
 // Задание 5, 6
