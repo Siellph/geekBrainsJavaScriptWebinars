@@ -3,7 +3,7 @@ function preNum(a) {
     if (a > 999) {
         console.log('Ожидалось трехзначное число')
     } else {
-        let num = {
+        return {
             единицы: Math.floor((a / 1) % 10),
             десятки: Math.floor((a / 10) % 10),
             сотни: Math.floor((a / 100) % 10)
