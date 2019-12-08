@@ -1,14 +1,18 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgba(198, 246, 248, 0.288);
+  background-image: url(https://static.tumblr.com/34c9c476206ee5a30ef3aeb63f31b6f9/rfpkbvp/CQUojg6at/tumblr_static_tumblr_static_eyn3f2c8mygw0ggc4oo0w8w0s_focused_v3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .nav {
   width: 1200px;
   margin: 0 auto 50px;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightcoral;
+  background-color: rgba(253, 63, 206, 0.664);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 2px 3px 3px rgba(248, 167, 255, 0.623);
@@ -18,19 +22,19 @@ body {
 }
 .cart {
   text-transform: uppercase;
-  background-color: lightcoral;
+  background-color: rgba(253, 63, 205, 0);
   border-color: transparent;
   outline: none;
   border-bottom-right-radius: 10px;
-  padding: 50px;
+  padding: 25px;
   margin: 0;
   transition: background-color 0.2s ease-out;
 }
 .cart:hover {
-  background-color: #f05f5f;
+  background-color: rgba(253, 63, 205, 0.651);
 }
 .cart:active {
-  background-color: #ec3f3f;
+  background-color: #fd3fcd;
 }
 .products {
   width: 1200px;
@@ -44,9 +48,9 @@ body {
 .product {
   justify-content: space-between;
   width: 300px;
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
-  background-color: #6490f0;
+  background-color: rgba(246, 199, 255, 0.801);
   border: 1px solid transparent;
   border-radius: 10px;
   transition: box-shadow 0.2s ease-out;
@@ -83,6 +87,7 @@ body {
   width: 140px;
   margin: 0 auto;
   transition: background-color 0.1s ease-out;
+  outline: none;
 }
 .buy:hover {
   background-color: white;
