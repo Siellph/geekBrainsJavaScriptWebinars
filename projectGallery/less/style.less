@@ -1,3 +1,20 @@
+.buttonStyle {
+    outline: none;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    &:hover {
+        transform: scale(1.1);
+    }
+    &:active {
+        transform: scale(1);
+        
+    }
+}
 .wrapper {
     border: 5px solid rgba(255, 163, 178, 0.863);
     background-color: rgba(255, 192, 203, 0.733);
@@ -10,6 +27,20 @@
 .windowPic {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#left {
+    left: 5px;
+    border-left-width: 0;
+    border-right: 60px solid rgba(0, 0, 0, 0.459);
+    .buttonStyle
+}
+#right {
+    right: 5px;
+    border-right-width: 0;
+    border-left: 60px solid rgba(0, 0, 0, 0.459);
+    .buttonStyle
 }
 #roulette {
     margin: 0 0 0 10px;
