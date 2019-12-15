@@ -12,7 +12,7 @@ let IMGS = [
 
 let MAIN_PIC = document.getElementById ('MAIN-PIC')
 let ROUL = document.getElementById ('roulette')
-
+let CONTR = document.getElementById ('control')
 window.onload = function () {
     MAIN_PIC.src = IMGS [7]
 
@@ -43,6 +43,15 @@ function changeMain (evt) {
     if (evt.target.tagName === 'IMG') {
         MAIN_PIC.src = evt.target.src
     }
-    // console.dir (event.target)
-    //MAIN_PIC.src = source
 }
+CONTR.addEventListener ('click', (evt) => {
+    let e = evt.target
+
+    if (e.name === 'control') {
+        let step = +e.dataset.step
+        let actual = IMGS.indexOf (MAIN_PIC.src)
+        if ((actual === IMGS.length - 1) && (step === 1)) actual = -1
+        if ((actual === 0) && (step === -1)) actual = IMGS.length
+        MAIN_PIC.src = IMGS [actual + step]
+    }
+})
