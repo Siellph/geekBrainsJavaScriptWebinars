@@ -8,6 +8,9 @@
      'https://images-na.ssl-images-amazon.com/images/I/81PLqxtrJ3L._SX466_.jpg'
  ]
  //let products = [] //массив объектов
+ document.querySelector('.btn-cart').addEventListener('click', () => {
+     document.querySelector('.cart-block').classList.toggle('invisible');
+ });
  let catalog = {
      items: [],
      container: '.products',
